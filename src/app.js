@@ -4,7 +4,7 @@ const hbs = require('hbs')
 const request = require ('postman-request')
 const geocode = require ('./utils/geocode')
 const forecast = require ('./utils/forecast')
-
+const port = process.env.PORT || 3000
 
 const app = express()
 
@@ -60,6 +60,6 @@ app.get('*', (req, res) => {
         errorMessage : 'Page not found'
     })
 })
-app.listen(3000, () => {
-console.log('Server is up and running.')
+app.listen(port, () => {
+console.log('Server is up and running on' + port)
 })

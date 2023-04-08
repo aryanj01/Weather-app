@@ -3,5 +3,24 @@
     "express": "^4.18.2",
     "hbs": "^4.2.0",
     "postman-request": "^2.88.1-postman.32"
-  }
+  },
+  "name": "web-server",
+  "description": "Find the weather for your location using this app. Enter the address.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanj01/Weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryanj01/Weather-app/issues"
+  },
+  "homepage": "https://github.com/aryanj01/Weather-app#readme"
 }
